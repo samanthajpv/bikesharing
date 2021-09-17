@@ -1,7 +1,7 @@
 # bikesharing
 
 ## Project Overview
-The purpose of this project was to create a story using Tableau. The story showcases the NYC Citi Bike Data for August 2019 to show key stakeholders the potential of the business for expansion in other locations. Several visualizations were created to display the trends in the dataset.
+The purpose of this project was to create a story using Tableau. The story showcases the NYC Citi Bike Data for August 2019 to show key stakeholders the potential of the business for expansion in other locations. Several visualizations were created to display insights and trends.
 
 ### Resources
 - [NY Citi Bike Trip Data August 2019](https://s3.amazonaws.com/tripdata/201908-citibike-tripdata.csv.zip)
@@ -11,7 +11,7 @@ The purpose of this project was to create a story using Tableau. The story showc
 - [Link to Tableau Story](https://public.tableau.com/app/profile/samantha.villanueva/viz/BikeSharing-NYCCitiBikeAugust2019Analysis/Story?publish=yes)
 
 ## Results
-Before creating the visualizations, the a new column was created for 'tripduration' to be converted to a datetime data type. This was done using Python's' ```to_datetime``` function. Below are the findings:
+Before creating the visualizations, the a new column was created for 'tripduration' to be converted to a datetime data type. This was done using Python's ```to_datetime``` function. Below are the findings:
 
 - **Top 10 Peak Hours** - The top 10 peak riding hours are highlighted to emphasize which hours are the busiest. After office hours, 5-6PM, has the most number of rides. It also gets busy in the morning, around 8-9AM as business hours start. These users are most likely those that commute to work.
 <p align="middle">
@@ -51,8 +51,9 @@ Before creating the visualizations, the a new column was created for 'tripdurati
 
 ## Summary
 
-The August 2019 Citi Bike data shows that most users are male and are subscribers, the busiest stations are located in mid-lower Manhattan, majority of trip durations are under 20 minutes, and the largest portion of trips occur during rush hours. Below are two visualizations added as suggestions to be considered for future analysis:
-- **Bike Utilization** - A modified version of the bike utilization was created from the module to represent the bikes that need maintenance/repair as well. The bubble chart easily separates the bikes that have exceedingly high trip durations which can be helpful to the business to assess bike performance.
+The August 2019 Citi Bike data shows that most users are male and are subscribers, the busiest stations are located in mid-lower Manhattan, majority of trip durations are under 20 minutes, and the largest portion of trips occur during rush hours. Below are two visualizations added as suggestions for future analysis:
+
+- **Bike Utilization** - A modified version of the bike utilization from the module was created to represent the bikes that need maintenance/repair as well. The bubble chart easily separates the bikes that have exceedingly high trip durations which can be helpful to the business to assess bike performance as well.
 <p align="middle">
     <img src="https://github.com/samanthajpv/bikesharing/blob/699f4840e731044e2a51fab2052f5611b590cfb3/Images/Bike%20utilization.png" width="800" height="500"/>
 </p>
